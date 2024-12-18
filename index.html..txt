@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexora - Solutions IA pour votre entreprise</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Transformez votre entreprise avec Nexora</h1>
+        <p>Des solutions IA simples et puissantes pour automatiser vos tâches et améliorer votre service client.</p>
+        <a href="#services" class="cta-btn">Découvrez nos services</a>
+    </header>
+    
+    <section id="services">
+        <h2>Nos Services</h2>
+        <div class="service">
+            <h3>Chatbots personnalisés</h3>
+            <p>Automatisez vos interactions clients pour gagner du temps et améliorer l'expérience utilisateur.</p>
+        </div>
+        <div class="service">
+            <h3>Création de contenu automatisée</h3>
+            <p>Générez du contenu rapidement et facilement pour vos campagnes marketing, blogs, etc.</p>
+        </div>
+        <div class="service">
+            <h3>Outils d'automatisation des tâches</h3>
+            <p>Facilitez la gestion de vos tâches quotidiennes avec des solutions sur-mesure adaptées à vos besoins.</p>
+        </div>
+    </section>
+
+    <section id="formulaire">
+        <h2>Participez à notre lancement</h2>
+        <p>Remplissez le formulaire pour partager vos besoins et aider à façonner nos outils.</p>
+        <form action="submit_form.php" method="POST">
+            <input type="text" name="company_name" placeholder="Nom de votre entreprise" required>
+            <input type="text" name="sector" placeholder="Secteur d'activité" required>
+            <textarea name="needs" placeholder="Vos besoins ou attentes" required></textarea>
+            <input type="email" name="email" placeholder="Votre email" required>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Nexora. Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
